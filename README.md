@@ -6,12 +6,18 @@
 In this project new wallet will be created for the user without the private key (EOA) at the backend. and user can perfrom the transaction and operations with this. we have few functions to test the contract. ```connect wallet``` to get the own wallet address, ```create wallet``` to create a new wallet from the contract. ```get wallet address``` to get the address of created wallet. ```checkBalance, trasnferfunds``` to check and transfer the funds and ```Execute operation``` to perform the user operations at the backend, here in this case we are doing ```nonce++```.
 
 ### steps of execution
+```javascript 
+git clone https://github.com/Ms-10182/eth-advance-mod-4.git
+cd eth-advance-mod-4
+```
+
 1) open Remix ide and create ```wallet Folder```
 2) upload ```EIP4337.sol, Wallet.sol, WalletFactory.sol``` into it and deploy the walletFactory.sol on sepolia test net.
 3) copy the WalletFactory abi and paste in value of ```walletFactoryAbi``` in app.js, copy abi of Wallet.sol paste in value of ```walletAbi``` in app.js and copy the contract address fo walletFactory.sol in value of ```walletFactoryAddress```.
 from vs code run the index.html using live server.
 
 ### Interaction
+
 1) wallet will be pre connected, in case of failure Click connnect wallet to connect and get the address of meta mask.
 2) click Create Wallet to create a new wallet, if already exist it will give error, 1 wallet per account is allowed.
 3) click get wallet address to get the public address of generated wallet.
