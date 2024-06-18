@@ -1,5 +1,4 @@
-# Message System
-
+# wallet Smart contract
  This fullstack code is made with the help of Solidity and designed a smart contract wallet for users using account abstraction. A simple wallet Factory contract is built which would create a smart contract wallet (not an EOA) at the backend and perform simple wallet operations like transfer of crypto from one wallet to another, fetching the wallet balances etc.
 
 ## Description
