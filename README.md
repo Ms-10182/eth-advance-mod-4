@@ -21,3 +21,11 @@ from vs code run the index.html using live server.
 6) click execute operation to perfrom user operation that is nonce ++ in this case.
 
 WARNING- nonce function is critical here, in backend after every user operation , nonce will increase by 1, so match the same with the app.js file. if the nonce dont match the it will give error. This will commomly happen if called the execute operation once and refresing the webpage. In that case you will have to manually set the nonce in app.js
+
+## Authors
+
+Mayank Sharma  
+[@Mayank](https://www.linkedin.com/in/mayank-sharma-078278243/)
+
+
+License
