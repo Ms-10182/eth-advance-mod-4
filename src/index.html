@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Interaction</title>
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wallet Interaction</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <button id="createWalletButton">Create Wallet</button>
+    <button id="getWalletAddressButton">Get Wallet Address</button>
+    <button id="checkBalanceButton">Check Balance</button>
+    <button id="transferButton">Transfer Funds</button>
+    <button id="executeOperationButton">Execute Operation</button> <!-- New button for EIP-4337 operation -->
+    <input type="text" id="recipientAddress" placeholder="Recipient Address">
+    <input type="text" id="transferAmount" placeholder="Amount (ETH)">
+    <!-- Additional inputs for EIP-4337 parameters if needed -->
+    <div id="output"></div>
+    <div id="errorOutput" style="color: red;"></div> <!-- Display errors in red -->
+    <script src="app.js"></script>
+</body>
+</html>
